@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message:GenericData xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXMessage.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXCommon.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXDataGeneric.xsd">
+ <message:Header>
+  <message:ID>
+   6e127f46-6d82-42b0-b052-11584327d3fc
+  </message:ID>
+  <message:Test>
+   false
+  </message:Test>
+  <message:Prepared>
+   2022-04-28T10:02:10.419+02:00
+  </message:Prepared>
+  <message:Sender id="ECB"/>
+  <message:Structure dimensionAtObservation="TIME_PERIOD" structureID="ECB_BSI1">
+   <common:Structure>
+    <URN>
+     urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_BSI1(1.0)
+    </URN>
+   </common:Structure>
+  </message:Structure>
+ </message:Header>
+ <message:DataSet action="Replace" structureRef="ECB_BSI1" validFromDate="2022-04-28T10:02:10.419+02:00">
+  <generic:Series>
+   <generic:SeriesKey>
+    <generic:Value id="FREQ" value="Q"/>
+    <generic:Value id="REF_AREA" value="HR"/>
+    <generic:Value id="ADJUSTMENT" value="N"/>
+    <generic:Value id="BS_REP_SECTOR" value="A"/>
+    <generic:Value id="BS_ITEM" value="A20"/>
+    <generic:Value id="MATURITY_ORIG" value="A"/>
+    <generic:Value id="DATA_TYPE" value="1"/>
+    <generic:Value id="COUNT_AREA" value="AT"/>
+    <generic:Value id="BS_COUNT_SECTOR" value="2000"/>
+    <generic:Value id="CURRENCY_TRANS" value="Z01"/>
+    <generic:Value id="BS_SUFFIX" value="E"/>
+   </generic:SeriesKey>
+   <generic:Attributes>
+    <generic:Value id="COLLECTION" value="E"/>
+    <generic:Value id="TITLE_COMPL" value="Croatia, Outstanding amounts at the end of the period (stocks), MFIs excluding ESCB reporting sector - Loans, Total maturity, All currencies combined - Austria counterpart, Non-MFIs sector, denominated in Euro, data Neither seasonally nor working day adjusted"/>
+    <generic:Value id="UNIT" value="EUR"/>
+    <generic:Value id="TITLE" value="Loans vis-a-vis non-MFI reported by MFI excluding ESCB in Croatia (stock)"/>
+    <generic:Value id="TIME_FORMAT" value="P3M"/>
+    <generic:Value id="DECIMALS" value="0"/>
+    <generic:Value id="UNIT_MULT" value="6"/>
+   </generic:Attributes>
+   <generic:Obs>
+    <generic:ObsDimension value="2011-Q1"/>
+    <generic:ObsValue value="1.2198758437474586"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2011-Q2"/>
+    <generic:ObsValue value="1.351022724202221"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2011-Q3"/>
+    <generic:ObsValue value="1.3334222281485433"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2011-Q4"/>
+    <generic:ObsValue value="1.326787846623325"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2012-Q1"/>
+    <generic:ObsValue value="1.3311148086522462"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2012-Q2"/>
+    <generic:ObsValue value="1.8622469339434409"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2012-Q3"/>
+    <generic:ObsValue value="2.5514314873502713"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2012-Q4"/>
+    <generic:ObsValue value="1.1908699966920278"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2013-Q1"/>
+    <generic:ObsValue value="1.7118777982617857"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2013-Q2"/>
+    <generic:ObsValue value="5.369487885092959"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2013-Q3"/>
+    <generic:ObsValue value="6.303100337478497"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2013-Q4"/>
+    <generic:ObsValue value="5.900478594374877"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2014-Q1"/>
+    <generic:ObsValue value="4.707420725727362"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2014-Q2"/>
+    <generic:ObsValue value="4.487856388595565"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2014-Q3"/>
+    <generic:ObsValue value="3.140333660451423"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2014-Q4"/>
+    <generic:ObsValue value="6.2679550796552626"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2015-Q1"/>
+    <generic:ObsValue value="25.63767168083715"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2015-Q2"/>
+    <generic:ObsValue value="13.693579817770052"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2015-Q3"/>
+    <generic:ObsValue value="8.63365818562365"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2015-Q4"/>
+    <generic:ObsValue value="9.557475778999738"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2016-Q1"/>
+    <generic:ObsValue value="0.930170752773902"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2016-Q2"/>
+    <generic:ObsValue value="0.9298494972170933"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2016-Q3"/>
+    <generic:ObsValue value="0.9306035628822121"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2016-Q4"/>
+    <generic:ObsValue value="0.9259626704763416"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2017-Q1"/>
+    <generic:ObsValue value="1.0743302222520648"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2017-Q2"/>
+    <generic:ObsValue value="1.0795784246251838"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2017-Q3"/>
+    <generic:ObsValue value="1.200800533689126"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2017-Q4"/>
+    <generic:ObsValue value="1.2096774193548387"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2018-Q1"/>
+    <generic:ObsValue value="1.3454785194354373"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2018-Q2"/>
+    <generic:ObsValue value="1.353912808015164"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2018-Q3"/>
+    <generic:ObsValue value="1.4795685040217363"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2018-Q4"/>
+    <generic:ObsValue value="1.4839797639123105"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2019-Q1"/>
+    <generic:ObsValue value="1.7487691355699644"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2019-Q2"/>
+    <generic:ObsValue value="2.2981358063077066"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2019-Q3"/>
+    <generic:ObsValue value="2.158952907839698"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2019-Q4"/>
+    <generic:ObsValue value="2.2850998050944287"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2020-Q1"/>
+    <generic:ObsValue value="6.819224968854502"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2020-Q2"/>
+    <generic:ObsValue value="7.396840492418239"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2020-Q3"/>
+    <generic:ObsValue value="7.278501951961887"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2020-Q4"/>
+    <generic:ObsValue value="2.6483401528092267"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2021-Q1"/>
+    <generic:ObsValue value="2.641833432402087"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2021-Q2"/>
+    <generic:ObsValue value="2.8032517720555847"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2021-Q3"/>
+    <generic:ObsValue value="2.937681101363351"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="A"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+   <generic:Obs>
+    <generic:ObsDimension value="2021-Q4"/>
+    <generic:ObsValue value="5.721432753206663"/>
+    <generic:Attributes>
+     <generic:Value id="OBS_STATUS" value="P"/>
+     <generic:Value id="OBS_CONF" value="F"/>
+    </generic:Attributes>
+   </generic:Obs>
+  </generic:Series>
+ </message:DataSet>
+</message:GenericData>

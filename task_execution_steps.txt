@@ -1,0 +1,16 @@
+1.Before we executing the test_obs_unittest.py file we need to install the pandas,bs4,requests module
+    using commands like
+
+    pip install pandas
+    pip install bs4
+    pip install requests
+
+2.Then,we run the test file using
+
+    python -m test_obs_unittest
+
+Note:the four file should be in one folder
+
+folder>commands
+
+
